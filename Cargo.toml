@@ -1,0 +1,13 @@
+[package]
+name = "modbus_server"
+version = "0.1.0"
+authors = ["Erik Kallen <info@erikkallen.nl>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+    libmodbus-rs = "0.8.3"
+    clap = "3.0.0-beta.2"
+    configparser = " 2.0.1"
+    shell = "0.3.2"
